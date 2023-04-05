@@ -1,3 +1,5 @@
+*{transition: .3s;}
+
 .menu .nav-header {
     display: flex;
     align-items: center;
@@ -33,3 +35,26 @@
     color: #0568DD;
 }
 
+
+@media (min-width: 768px){
+   
+    header .nav ul {
+        display: flex;
+        margin: 0px;
+        justify-content: space-evenly;
+        padding: 0px 32px;
+        top: 0px;
+    }
+    .menu .nav-header {
+        padding: 17px 30px;
+    }
+    .menu .nav-header button {
+        margin-right: 20%;
+    }
+    header .nav{
+        height: 50%;
+    }
+    .menu .nav-header {
+        margin-bottom: 5%;
+    }
+}

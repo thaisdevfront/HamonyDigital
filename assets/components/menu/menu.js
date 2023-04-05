@@ -33,7 +33,7 @@ menu.innerHTML = `
         <div id="nav" class="nav xs-hidden sm-hidden"> 
             <div class="nav-header">
                 <img src="/assets/img/logo.png">
-                <button onclick="menuToggle()">x</button>
+                <button onclick="menuToggle()"><i class="fa-regular fa-circle-xmark"></i></button>
             </div>
             <ul>
             <li>
