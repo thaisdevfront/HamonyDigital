@@ -6,7 +6,7 @@ fullbanner.innerHTML = `
     <p>Experiência, Design, integração e Social Midia Digital.</p>
 </div>
 <div class="Donw">
-    <a hrf="#">
+    <a href="#">
         <i class="fa-solid fa-chevron-down"></i>
     </a>
 </div>
