@@ -2,8 +2,21 @@
 background-attachment: fixed;
  
 }
+@media (min-width:424px) {
+
+#full-banner h1 {
+  
+  font-size: 36px;
+  margin: 37% 0px;
+}
+}
 
 @media (max-width:465px) {
+  
+#full-banner h1 {
+  width: 40px;
+   
+}
     #full-banner {
         height: 95vh;
     }
@@ -42,6 +55,7 @@ background-attachment: fixed;
 @media(min-width: 1100px){
     #full-banner .title {
         margin: 0% auto 0px;
+        height: 74vh;
     }
         #full-banner h1 {
     

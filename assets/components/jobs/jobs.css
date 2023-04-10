@@ -2,6 +2,9 @@
     background-color:#440089;
     overflow: hidden;
     padding-top: 35%;
+ 
+    
+    padding: 90px 0;
 }
  
 #jobs h3 {
@@ -15,6 +18,70 @@
 
 @media (min-width:768px) {
     #jobs {
-        padding-top: 10%;
+        padding-top: 25%;
+        align-items: flex-start;
+    }
+    #jobs button{
+       margin:20px 0;
+    }
+    div#jobs .container {
+        flex-direction: column;
+    min-width: 40%;
+    display: flex;
+    
+    align-items: baseline;
+
+    }
+    #jobs h3 { 
+        margin-bottom: 0px;
+     
+    }
+    #jobs .content-text {
+        margin-bottom: 25px;
     }
 } 
+
+
+
+@media (min-width:1000px) {
+    
+    div#jobs{
+        padding: 25% 5% 0;
+        flex-direction: initial;
+        display: flex;
+    }
+    #jobs img {
+        max-width: 930px;
+        position: relative;
+        left: -130px;
+        bottom: 0;
+    }
+     
+    #jobs h3 {
+            font-size: 2.3rem;
+        
+    }
+    div#jobs .container {
+        max-width: 50%;
+        min-width: inherit;
+    }
+    div#jobs .swiper{
+        margin-left:5%;
+    }
+    
+} 
+
+
+@media (min-width:1300px) {
+    
+    #jobs img {
+        max-width: 1030px;
+        position: relative;
+        left: -230px;
+        bottom: 0;
+    }
+     
+ 
+} 
+
+

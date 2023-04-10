@@ -67,19 +67,27 @@ h3{
         top: -140px;
     }
     #about::after {
-        bottom: -139px;
+        bottom: -260px;
         rotate: 180deg;
+        height: 260px;
     }
     div#about .container {
         flex-direction: initial;
-        width:60%;
+        width:80%;
 
     }
     .promoter {
-        width: 380px;
-        margin-right: 0;
+        width: 300px;
+        margin-right: 0; 
+        margin-left: 10%;
     }
 
+    div#about  .content-text {
+        min-width: 42%;
+    }
+    #about .btn.primary{
+        margin: 0;
+    }
     
     
 } 
@@ -94,6 +102,14 @@ h3{
     }
     .promoter {
         width: 500px; 
+    }
+    div#about .container { 
+        width:60%;
+
+    }
+    #about::before {
+        top: -36%;
+        height: 248px;
     }
 }
 @media (min-width:1200px) {

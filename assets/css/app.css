@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: 'Montserrat';
+    background-color: #fafafa;
 }
 h3 {
     color: #440089;
@@ -22,7 +23,13 @@ h3 {
 img{
     max-width: 100%;
 }
-
+button a{
+    color: white;
+    text-decoration: none;
+}
+a svg{ 
+    margin-left: 5px;
+}
 button.btn{
     width: auto;
     height: 35px;
@@ -121,8 +128,7 @@ header .nav ul li {
     margin: 0 auto 0px;
     padding: 8% 20px;
 }
-#full-banner h1 {
-    width: 40px;
+#full-banner h1 { 
     font-size: 36px;
     margin: 50% 0px;
 }
