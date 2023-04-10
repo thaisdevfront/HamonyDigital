@@ -1,0 +1,20 @@
+#jobs {
+    background-color:#440089;
+    overflow: hidden;
+    padding-top: 35%;
+}
+ 
+#jobs h3 {
+    color: #ffff;
+    margin-bottom: -70px;
+    z-index: 999;
+    position: relative;
+}
+
+
+
+@media (min-width:768px) {
+    #jobs {
+        padding-top: 10%;
+    }
+} 

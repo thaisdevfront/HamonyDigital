@@ -1,5 +1,5 @@
 *{transition: .3s;}
-
+ 
 .menu .nav-header {
     display: flex;
     align-items: center;
@@ -37,6 +37,9 @@
 
 
 @media (min-width: 768px){
+    div#menu {
+        margin-right: 20px;
+    }
    
     header .nav ul {
         display: flex;

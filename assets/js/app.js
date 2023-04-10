@@ -6,7 +6,71 @@ app.innerHTML=`
     
     <header> </header>
 
-    <div id="full-banner"></div>
+    <div id="full-banner"> </div>
+    
+    <div id="about">
+
+        <div class="container">
+            <img class="brain sm-hidden" src="/assets/img/brain.png">
+             
+            <div class="content-text">
+                <span class="element">DIGITAL HARMONY</span>
+                <h3>CRIE, DESENVOLVA E CONQUISTE A COMUNICAÇÃO IDEAL PARA NOVOS CLIENTES.</h3>
+                <button class='btn primary'>Falar com especialista </button>
+            </div>
+   
+                <img class="xs-hidden promoter" src="/assets/img/promoter.png">
+         
+        </div>
+        
+    
+    </div>
+    <div id="jobs">
+        <div class="container">
+            <div class="content-text">
+                <span class="element">DIGITAL HARMONY</span>
+                <h3>CRIE, DESENVOLVA E CONQUISTE A COMUNICAÇÃO IDEAL PARA NOVOS CLIENTES.</h3>
+            </div>
+        </div>
+
+            <div class="">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"> 
+                            <img class="sm-hidden" src="assets/img/app-mockup.png">
+                            <img class="xs-hidden" src="assets/img/app-sm.png">
+                             
+                       
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="sm-hidden" src="assets/img/app-mockup.png">
+                        <img class="xs-hidden" src="assets/img/app-sm.png">
+
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="sm-hidden" src="assets/img/app-mockup.png">
+                        <img class="xs-hidden" src="assets/img/app-sm.png">
+                        
+                        
+
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+        
+
+        <div>
+        <button class='btn primary'>Falar com especialista </button>
+
+        </div>
+
+    </div>
 
 
     `;

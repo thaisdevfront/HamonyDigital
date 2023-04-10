@@ -7,12 +7,10 @@ menuToggle=()=>{
     
 if (window.matchMedia("(max-width: 768px)").matches) {
     /* a viewport tem pelo menos 400 pixels de largura */
-    console.log('mobil')
     nav.classList.toggle("xs-hidden")
 
   } else {
     /* a viewport menos que 400 pixels de largura */
-    console.log('Dktp')
     fullbanner.style.cssText='background-image: url(assets/img/fulldesign.png);'
 
     nav.classList.toggle("sm-hidden")
