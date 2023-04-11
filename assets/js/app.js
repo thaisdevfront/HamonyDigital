@@ -11,7 +11,7 @@ app.innerHTML=`
     <div id="about">
 
         <div class="container">
-            <img class="brain sm-hidden" src="./assets/img/brain.png">
+            <img class="brain sm-hidden" src="assets/img/brain.png">
              
             <div class="content-text">
                 <span class="element">DIGITAL HARMONY</span>
@@ -19,7 +19,7 @@ app.innerHTML=`
                 <button class='btn primary'>Falar com especialista </button>
             </div>
    
-                <img class="xs-hidden promoter" src="/assets/img/promoter.png">
+                <img class="xs-hidden promoter" src="assets/img/promoter.png">
          
         </div>
         
