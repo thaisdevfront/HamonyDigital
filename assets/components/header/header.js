@@ -3,7 +3,7 @@ var header = document.getElementsByTagName('header')[0]
 header.innerHTML=`
     <div class="container">
         <div class="logo"> 
-            <img src="/assets/img/logo.png">
+            <img src="assets/img/logo.png">
         </div>
 
         <div style="display: flex;    justify-content: space-between;  align-items: center;">
