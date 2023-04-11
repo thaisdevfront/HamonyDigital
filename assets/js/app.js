@@ -11,7 +11,7 @@ app.innerHTML=`
     <div id="about">
 
         <div class="container">
-            <img class="brain sm-hidden" src="assets/img/brain.png">
+            <img class="brain sm-hidden" src="./assets/img/brain.png">
              
             <div class="content-text">
                 <span class="element">DIGITAL HARMONY</span>
