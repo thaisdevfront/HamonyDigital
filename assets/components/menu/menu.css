@@ -19,7 +19,7 @@
 
 
 .socialmedia {
-    bottom: 10px;
+    bottom: 30%;
     position: absolute;
     width: 100%;
 }
@@ -39,6 +39,10 @@
 @media (min-width: 768px){
     div#menu {
         margin-right: 20px;
+    }
+    .socialmedia {
+        bottom: 10%;
+       
     }
    
     header .nav ul {

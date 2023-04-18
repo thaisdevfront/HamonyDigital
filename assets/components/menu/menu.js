@@ -35,7 +35,7 @@ menu.innerHTML = `
             </div>
             <ul>
             <li>
-                <a class="nav-link" href="#">Pagina Inicial</a>
+                <a class="nav-link" href="index.html">Pagina Inicial</a>
             </li>
             <li>
                 <a class="nav-link" href="#">Web Design</a>
@@ -52,7 +52,7 @@ menu.innerHTML = `
                         <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i></a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="nav-link" href="https://www.facebook.com/profile.php?id=100091804441284" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                     </li>
                     <li>    
                         <a class="nav-link" href="#"><i class="fa-brands fa-linkedin-in"></i></a>

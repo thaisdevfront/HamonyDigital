@@ -16,7 +16,9 @@ app.innerHTML=`
             <div class="content-text">
                 <span class="element">DIGITAL HARMONY</span>
                 <h3>CRIE, DESENVOLVA E CONQUISTE A COMUNICAÇÃO IDEAL PARA NOVOS CLIENTES.</h3>
-                <button class='btn primary'>Falar com especialista </button>
+                <button class="btn primary">
+                    <a href="https://api.whatsapp.com/send?phone=5512981021517&text=%" target="_black">Falar com especialista<i class="fa-regular fa-comments"></i></a>
+                </button> 
             </div>
    
                 <img class="xs-hidden promoter" src="assets/img/promoter.png">
@@ -55,8 +57,8 @@ app.innerHTML=`
             </div> 
              
             <button class="btn primary sm-hidden">
-            <a href="https://api.whatsapp.com/send?phone=5512981021517&text=%" target="_black">Falar com especialista<i class="fa-regular fa-comments"></i></a>
-        </button> 
+                <a href="https://api.whatsapp.com/send?phone=5512981021517&text=%" target="_black">Falar com especialista<i class="fa-regular fa-comments"></i></a>
+            </button> 
         </div> 
 
     </div>

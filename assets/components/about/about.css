@@ -115,3 +115,9 @@ h3{
 @media (min-width:1200px) {
     
 }
+@media (min-width:1800px) {
+  #about::before {
+    top: -45%;
+    height: 305px;
+  }
+  }
